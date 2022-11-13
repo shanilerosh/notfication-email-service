@@ -1,0 +1,14 @@
+rabbitmq:
+  host: localhost
+  port: 15672
+  username: guest
+  password: guest
+  exchange: user.exchange
+  routing-key: user.routingkey
+  queue: user.queue
+
+#    Other props
+queue:
+  name-email: queue-email
+  exchange: hotel-exchange
+  route: hotel-route
